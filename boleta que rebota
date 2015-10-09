@@ -1,0 +1,17 @@
+int ellipse = 0;
+int a = 3;
+void setup(){
+  size(500,200);
+}
+
+void draw(){
+  background(200);
+  ellipse(ellipse,100,50,50);
+  ellipse = ellipse + a;
+  if (ellipse>500){
+  a = - 3;
+  }
+  if (ellipse<1){
+    a= +3;
+  }
+}
