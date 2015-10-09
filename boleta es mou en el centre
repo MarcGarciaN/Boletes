@@ -1,0 +1,11 @@
+int diametro = 50,posX;
+
+void setup() {
+ size(500,200);
+ }
+ void draw() {
+   background(100);
+   fill(210,175,0);
+   ellipse(posX,height/2,diametro,diametro);
+   posX = posX +1;
+ }
